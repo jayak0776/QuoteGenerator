@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./pic/pp.jpg) ;
+    background-size: cover;
+} 
+
+.container{
+    width: 550px;
+    height: 450px;
+
+}
+.header{
+    font-size: 1.2rem;
+    border: solid 2px white;
+    color: white;
+    background-color: rgb(17, 89, 62);
+    padding: 10px 0px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.main_contain{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(74, 131, 108);
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.main_contain .testarea{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.main_contain .person{
+    font-size: 1.7rem;
+    color: red;
+    margin-top: 30px;
+}
+.main_contain button{
+    background-color: rgba(33, 33, 33);
+    color:white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 5px;
+    
+}
+.main_contain button:hover{
+    background-color: rgb(96, 151, 131);
+    color:white;
+    /* border: solid 3px black; */
+}
