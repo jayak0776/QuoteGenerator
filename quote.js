@@ -8,6 +8,10 @@ const quotes = [
         person:"Abraham Lincoln"
     },
     {
+        quote:`"The best way to predict the future is to create it."`,
+        person:"Abraham Lincoln"
+    },
+    {
         quote:`"The greatest glory in living lies not in never falling, but in rising every time we fall."`,
         person:" Nelson Mandela"
     },
